@@ -1430,6 +1430,6 @@ body.offcanvas {
 .social {
     text-align: center;
     width: -webkit-fill-available;
-    padding-bottom: 3px;
-    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 3px;
 }

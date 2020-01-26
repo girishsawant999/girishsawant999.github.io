@@ -105,6 +105,7 @@ figure {
   #colorlib-aside .position {
     display: block;
     font-size: 12px;
+    font-weight: 500;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
     text-align: right;
@@ -1427,9 +1428,19 @@ body.offcanvas {
 .js .animate-box {
   opacity: 0; }
 
-.social {
+.social-div {
     text-align: center;
     width: -webkit-fill-available;
     padding-bottom: 20px;
     padding-top: 3px;
+}
+.social-icon {
+  color: rgba(0, 0, 0, 0.7);
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.social-icon:hover {
+  color: #2c98f0;
+  padding-right: 5px;
+  padding-left: 5px;
 }

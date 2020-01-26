@@ -104,7 +104,6 @@ figure {
     border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
-    margin-bottom: 2em;
     font-size: 12px;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
@@ -1430,9 +1429,7 @@ body.offcanvas {
 
 .social {
     text-align: center;
-    position: absolute;
-    bottom: 20px;
     width: -webkit-fill-available;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-top: 20px;
 }

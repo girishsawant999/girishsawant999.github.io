@@ -1444,3 +1444,10 @@ body.offcanvas {
   padding-right: 5px;
   padding-left: 5px;
 }
+*::-webkit-scrollbar {
+  width: 4px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #2d98f0;
+  outline: 1px solid #f2f3f7;
+}

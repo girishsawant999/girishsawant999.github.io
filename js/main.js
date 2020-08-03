@@ -12,7 +12,7 @@ $("#showAll").on("click", function () {
   });
   var Btn = $("#showAllAnchor");
   if (Btn.text().includes("Show")) {
-    Btn.text("Hide");
+    Btn.text("Hide Older Projects");
   } else {
     Btn.text("Show All Projects");
     $("html, body").animate(

@@ -1762,3 +1762,6 @@ body.offcanvas .colorlib-nav-toggle {
   background-color: #2d98f0;
   outline: 1px solid #f2f3f7;
 }
+.p-3 {
+  padding: 3rem;
+}

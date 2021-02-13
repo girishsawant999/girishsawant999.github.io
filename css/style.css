@@ -1739,11 +1739,27 @@ body.offcanvas .colorlib-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+@media screen and (max-width: 768px) {
+  #colorlib-aside {
+    animation: none;
+  }
+}
+.author-img {
+  background-image: url('../images/about.jpg');
+  transition: background-image 750ms ease-in-out;
+  box-shadow: 0px 0px 8px 3px #00000063;
+  transition: box-shadow 500ms ease-in-out;
+}
+.author-img:hover {
+  box-shadow: 0px 0px 8px 5px #00000063;
+  background-image: url('../images/about_1.jpg');
+}
 .social-div {
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-delay: 1s;
 }
 .social-icon {
   color: rgba(0, 0, 0, 0.7);
@@ -1751,12 +1767,19 @@ body.offcanvas .colorlib-nav-toggle {
   padding-left: 5px;
   transition: font-size 300ms ease-in-out;
 }
+.social-div a:hover {
+  animation-delay: 500ms;
+  animation: swing 1s;
+}
 .social-icon:hover {
   color: #2c98f0;
   font-size: 20px;
 }
 *::-webkit-scrollbar {
   width: 4px;
+}
+*::-webkit-scrollbar:horizontal {
+  height: 4px;
 }
 *::-webkit-scrollbar-thumb {
   background-color: #2d98f0;

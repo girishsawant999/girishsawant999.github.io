@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
-  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix')
-      format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
-    url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+      format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -44,7 +44,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -59,7 +59,7 @@ figure figcaption {
   margin: 20px auto 0px auto;
   color: #b3b3b3;
   font-style: italic;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
 }
 @media screen and (max-width: 480px) {
   figure figcaption {
@@ -168,13 +168,13 @@ figure figcaption {
   text-decoration: none;
   position: relative;
   padding: 10px 0;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #colorlib-aside #colorlib-main-menu ul li a:after {
-  content: '';
+  content: "";
   position: absolute;
   height: 1px;
   bottom: 7px;
@@ -351,7 +351,7 @@ figure figcaption {
   margin: 0;
   padding: 0;
   color: white; /*black;*/
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
@@ -369,7 +369,7 @@ figure figcaption {
   line-height: 1.5;
   margin-bottom: 30px;
   font-weight: 300;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(44, 152, 240, 0.8);
@@ -551,7 +551,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   background-color: #2c98f0;
   color: #fff;
   position: relative;
@@ -570,8 +570,8 @@ body.offcanvas .colorlib-nav-toggle {
   border: none;
 }
 .panel-heading a:after {
-  font-family: 'icomoon';
-  content: '\e115';
+  font-family: "icomoon";
+  content: "\e115";
   position: absolute;
   right: 20px;
   font-size: 14px;
@@ -581,7 +581,7 @@ body.offcanvas .colorlib-nav-toggle {
   margin-top: -7px;
 }
 .panel-heading a.collapsed:after {
-  content: '\e114';
+  content: "\e114";
 }
 .panel-heading a.collapsed {
   background: #f2f3f7;
@@ -599,7 +599,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .timeline-centered:before,
 .timeline-centered:after {
-  content: ' ';
+  content: " ";
   display: table;
 }
 .timeline-centered:after {
@@ -607,14 +607,14 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .timeline-centered:before,
 .timeline-centered:after {
-  content: ' ';
+  content: " ";
   display: table;
 }
 .timeline-centered:after {
   clear: both;
 }
 .timeline-centered:before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 4px;
@@ -696,7 +696,7 @@ body.offcanvas .colorlib-nav-toggle {
   background-clip: padding-box;
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 0;
@@ -713,7 +713,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500;
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
@@ -751,7 +751,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: #2c98f0;
 }
 .services h3 {
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
@@ -805,7 +805,7 @@ body.offcanvas .colorlib-nav-toggle {
   position: absolute;
   left: 0;
   right: 0;
-  content: '';
+  content: "";
 }
 .services .icon:before {
   top: -30px;
@@ -885,7 +885,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px;
 }
 .progress {
@@ -917,7 +917,7 @@ body.offcanvas .colorlib-nav-toggle {
   right: 0;
   width: 10px;
   height: 10px;
-  content: '';
+  content: "";
   background: #2c98f0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1083,7 +1083,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
 }
 .blog-entry .desc h3 a {
   color: #000;
@@ -1178,7 +1178,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: #333333;
 }
 .project .desc h3 {
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1289,7 +1289,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 40px;
   display: block;
   color: white;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   width: 100%;
   font-weight: 700;
   margin-bottom: 0.3em;
@@ -1403,7 +1403,7 @@ body.offcanvas .colorlib-nav-toggle {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: 'Quicksand', Arial, sans-serif;
+  font-family: "Quicksand", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1625,7 +1625,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle i::before,
 .colorlib-nav-toggle i::after {
-  content: '';
+  content: "";
   width: 30px;
   height: 2px;
   background: #000;
@@ -1745,14 +1745,13 @@ body.offcanvas .colorlib-nav-toggle {
   }
 }
 .author-img {
-  background-image: url('../images/about.jpg');
-  transition: background-image 750ms ease-in-out;
+  background-image: url("../images/about.jpg");
   box-shadow: 0px 0px 8px 3px #00000063;
-  transition: box-shadow 500ms ease-in-out;
+  transition: background-image 750ms ease-in-out, box-shadow 500ms ease-in-out;
 }
 .author-img:hover {
   box-shadow: 0px 0px 8px 5px #00000063;
-  background-image: url('../images/about_1.jpg');
+  background-image: url("../images/about_1.jpg");
 }
 .social-div {
   height: 40px;

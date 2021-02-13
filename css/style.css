@@ -1759,7 +1759,7 @@ body.offcanvas .colorlib-nav-toggle {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-delay: 1s;
+  animation-delay: 500ms;
 }
 .social-icon {
   color: rgba(0, 0, 0, 0.7);

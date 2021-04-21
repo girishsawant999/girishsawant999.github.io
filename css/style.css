@@ -1752,14 +1752,9 @@ body.offcanvas .colorlib-nav-toggle {
     animation: none;
   }
 }
-.author-img {
-  background-image: url("../images/about.jpg");
-  box-shadow: 0px 0px 8px 3px #00000063;
-  transition: background-image 750ms ease-in-out, box-shadow 500ms ease-in-out;
-}
-.author-img:hover {
-  box-shadow: 0px 0px 8px 5px #00000063;
-  background-image: url("../images/about_1.jpg");
+.author-img canvas {
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 3px #00000050;
 }
 .social-div {
   height: 40px;

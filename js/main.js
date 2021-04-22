@@ -274,3 +274,13 @@ new hoverEffect({
   angle: Math.PI / 6,
   displacementImage: "/images/dissplacement-img-1.png",
 });
+
+function onContactMeFormSubmit(e) {
+  e.preventDefault();
+  const name = e.target.name.value;
+  // const email = e.target.email.value;
+  const subject = e.target.subject.value;
+  const message = e.target.message.value;
+  const link = `mailto:girishsawant999.gs@gmail.com?subject=${subject}&body=${message}%0D%0A%0D%0ARegards,%0D%0A${name}`;
+  window.open(link, "_blank");
+}

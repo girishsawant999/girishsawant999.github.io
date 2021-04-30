@@ -303,6 +303,11 @@ figure figcaption {
   width: auto;
 }
 @media screen and (max-width: 768px) {
+  #colorlib-hero {
+    width: calc(100% + 2em);
+    margin-left: -1em;
+    margin-right: -1em;
+  }
   #colorlib-hero .flexslider .flex-control-nav {
     right: 20px;
     top: 100px;

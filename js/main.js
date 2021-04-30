@@ -281,6 +281,7 @@ function onContactMeFormSubmit(e) {
   // const email = e.target.email.value;
   const subject = e.target.subject.value;
   const message = e.target.message.value;
-  const link = `mailto:girishsawant999.gs@gmail.com?subject=${subject}&body=${message}%0D%0A%0D%0ARegards,%0D%0A${name}%0D%0A%0D%0AThis%20mail%20is%20initiated%20from%20portfolio.`;
+  if (!name || !subject || !message) return;
+  const link = `mailto:girishsawant999.gs@gmail.com?subject=[Portfolio]%20${subject}&body=${message}%0D%0A%0D%0ARegards,%0D%0A${name}%0D%0A%0D%0AThis%20mail%20is%20initiated%20from%20portfolio.`;
   window.open(link, "_blank");
 }

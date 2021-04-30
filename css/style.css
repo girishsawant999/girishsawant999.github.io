@@ -1001,14 +1001,11 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-feature {
   text-align: left;
   width: 100%;
-  float: left;
-  margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 30px;
   position: relative;
 }
 .colorlib-feature .colorlib-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100px;
   height: 100px;
   display: table;
@@ -1032,8 +1029,13 @@ body.offcanvas .colorlib-nav-toggle {
   }
 }
 .colorlib-feature .colorlib-text {
-  padding-left: 120px;
   width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+.colorlib-feature .colorlib-text p {
+  margin: 0;
 }
 .colorlib-feature .colorlib-text h2,
 .colorlib-feature .colorlib-text h3 {
@@ -1047,9 +1049,6 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
-}
-.colorlib-feature.colorlib-feature-sm .colorlib-text {
-  margin-top: 30px;
 }
 .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
   color: #2c98f0;

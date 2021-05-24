@@ -1763,25 +1763,41 @@ body.offcanvas .colorlib-nav-toggle {
   box-shadow: 0px 0px 6px 3px #00000050;
 }
 .social-div {
-  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   animation-delay: 500ms;
+  margin: 1rem 0rem;
 }
-.social-icon {
+.social-div a {
+  position: relative;
+  margin: 0px 5px;
+}
+
+.social-div a::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: rgba(0, 0, 0, 0.7);
+  top: -4px;
+  width: 2px;
+  left: calc(50% - 1px);
+  transition: 300ms ease;
+  border-radius: 2px;
+}
+.social-div a:hover::before {
+  background: #2c98f0;
+  width: 100%;
+  left: 0;
+  top: calc(100% - 4px);
+}
+.social-div a i {
+  font-size: 2rem;
   color: rgba(0, 0, 0, 0.7);
-  padding-right: 5px;
-  padding-left: 5px;
-  transition: font-size 300ms ease-in-out;
+  transition: 300ms ease;
 }
-.social-div a:hover {
-  animation-delay: 500ms;
-  animation: swing 1s;
-}
-.social-icon:hover {
+.social-div a:hover i {
   color: #2c98f0;
-  font-size: 20px;
 }
 *::-webkit-scrollbar {
   width: 4px;

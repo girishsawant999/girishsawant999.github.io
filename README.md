@@ -1,6 +1,10 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="images/assets/android-chrome-192x192.png" alt="Bot logo"></a>
+  <a 
+      href="https://girishsawant999.github.io/" 
+      rel="noopener noreferrer"
+      target="_blank">
+      <img width=200px height=200px src="images/assets/android-chrome-192x192.png" alt="Bot logo">
+      </a>
 </p>
 
 <h3 align="center">Portfolio Website</h3>

@@ -15,5 +15,10 @@
 
 <p align="center">😎✌ A basic portfolio website created using HTML & CSS
     <br> 
-    <a href="https://girishsawant999.github.io/">👉Check it out here</a>
+    <a
+      href="https://girishsawant999.github.io/" 
+      rel="noopener noreferrer"
+      target="_blank">
+      👉Check it out here
+      </a>
 </p>

@@ -786,7 +786,6 @@ body {
     padding: 8px 2rem;
     width: fit-content;
     margin-left: 3rem;
-
     &:after {
       content: "";
       display: block;
@@ -800,6 +799,25 @@ body {
       top: 50%;
       transform: translateY(-50%);
       margin-left: -9px;
+    }
+    a {
+      color: $brand-black;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: $brand-black;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: 300ms;
+      }
+      &:hover::after {
+        transform: scaleX(1);
+      }
     }
   }
 }

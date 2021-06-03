@@ -17,7 +17,7 @@ $brand-color-5: #2fa499 !default;
 $brand-color-6: #4054b2 !default;
 
 $brand-white: #fff;
-$brand-black: #000;
+$brand-black: rgb(7, 6, 6);
 $brand-darker: #444;
 $brand-gray: #f2f3f7;
 $brand-lighter: #e9e9e9;
@@ -181,8 +181,8 @@ figure {
   height: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #2d98f0;
-  outline: 1px solid #f2f3f7;
+  background-color: $brand-primary;
+  outline: 1px solid $brand-gray;
 }
 
 #colorlib-page {
@@ -217,8 +217,8 @@ figure {
     @include border-radius(50%);
     canvas {
       @include border-radius(50%);
-      box-shadow: -10px -10px 10px rgba($color: #fff, $alpha: 0.2),
-        10px 10px 10px rgba($color: #000, $alpha: 0.1);
+      box-shadow: -10px -10px 10px rgba($color: $brand-white, $alpha: 0.2),
+        10px 10px 10px rgba($color: $brand-black, $alpha: 0.1);
     }
   }
   .position {
@@ -263,7 +263,7 @@ figure {
         border-radius: 2px;
       }
       &:hover::before {
-        background: #2c98f0;
+        background: $brand-primary;
         width: 100%;
         left: 0;
         top: calc(100% - 4px);
@@ -274,7 +274,7 @@ figure {
         transition: 300ms ease;
       }
       &:hover i {
-        color: #2c98f0;
+        color: $brand-primary;
       }
     }
   }

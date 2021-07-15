@@ -1345,6 +1345,14 @@ body {
     }
   }
 }
+.colorlib-work {
+  div[data-work-cat-info] {
+    display: none;
+    &.active {
+      display: initial;
+    }
+  }
+}
 .project {
   background-size: cover;
   background-position: center center;

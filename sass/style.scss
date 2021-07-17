@@ -1410,6 +1410,21 @@ body {
       margin-bottom: 15px;
       a {
         color: $brand-white;
+        padding-block-end: 2px;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          background: $brand-white;
+          bottom: 0;
+          left: 0;
+          height: 2px;
+          width: 0%;
+          @include transition(300ms);
+        }
+        &:hover::before {
+          width: 100%;
+        }
       }
     }
     span {
@@ -1420,8 +1435,11 @@ body {
       transition: transform 0.3s, opacity 0.3s;
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0);
+      &:hover {
+        color: rgba(255, 255, 255, 0.9);
+      }
       a {
-        color: $brand-black;
+        color: $brand-white;
       }
     }
     @media screen and(max-width: $screen-sm) {

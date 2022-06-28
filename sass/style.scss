@@ -410,7 +410,7 @@ figure {
 
 #colorlib-hero {
   min-height: 500px;
-  background: $brand-white url(../images/loader.gif) no-repeat center center;
+  background: $brand-white url("/images/loader.gif") no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
@@ -437,20 +437,24 @@ figure {
         position: relative;
         animation: move-image 30s infinite;
 
+        &:nth-child(1) {
+          background: #fff url("/images/animated-shape.svg");
+        }
+        &:nth-child(2) {
+          background: #fff url("/images/animated-shape-2.svg");
+        }
 
         @keyframes move-image {
           0% {
             background-position: 0 50%;
           }
-         50% {
+          50% {
             background-position: 100% 0;
           }
           100% {
             background-position: 0 50%;
           }
-          
         }
-          
       }
     }
     .flex-control-nav {

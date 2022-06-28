@@ -433,9 +433,24 @@ figure {
       li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
         min-height: 400px;
         position: relative;
+        animation: move-image 30s infinite;
+
+
+        @keyframes move-image {
+          0% {
+            background-position: 0 50%;
+          }
+         50% {
+            background-position: 100% 0;
+          }
+          100% {
+            background-position: 0 50%;
+          }
+          
+        }
+          
       }
     }
     .flex-control-nav {
@@ -486,7 +501,7 @@ figure {
         h2 {
           margin: 0;
           padding: 0;
-          color: rgba($brand-white, 1);
+          color: rgba($brand-black, 1);
           font-family: $font-secondary;
         }
         h1 {
@@ -494,7 +509,7 @@ figure {
           font-size: 60px;
           line-height: 1.3;
           font-weight: 700;
-          text-shadow: 2px 2px 2px rgba($brand-black, 0.6);
+          text-shadow: 2px 2px 2px rgba($brand-bg-color, 0.6);
           @media screen and (max-width: $screen-sm) {
             font-size: 28px;
           }
@@ -532,8 +547,7 @@ figure {
           border: none;
           font-weight: 400;
           &.btn-learn {
-            color: $brand-white;
-            border: 1px solid $brand-white;
+            border: 1px solid $brand-black;
             background: transparent !important;
             position: relative;
             &::before {
@@ -543,7 +557,7 @@ figure {
               right: 100%;
               top: 0;
               bottom: 0;
-              background: $brand-white;
+              background: $brand-primary;
               transition: 300ms cubic-bezier(1, 0.48, 0, 0.55);
               z-index: -1;
             }

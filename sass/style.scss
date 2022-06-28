@@ -431,11 +431,13 @@ figure {
       position: relative;
       overflow: visible;
       li {
-        background-repeat: no-repeat;
-        background-size: cover;
         min-height: 400px;
         position: relative;
         animation: move-image 30s infinite;
+
+        @media screen and (max-width: $screen-sm) {
+          min-height: 100vh;
+        }
 
         &:nth-child(1) {
           background: #fff url("/images/animated-shape.svg");
